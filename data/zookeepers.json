@@ -59,6 +59,12 @@
       "age": 64,
       "favoriteAnimal": "Rabbit",
       "id": "9"
+    },
+    {
+      "name": "Simba",
+      "age": 30,
+      "favoriteAnimal": "toggers",
+      "id": "10"
     }
   ]
 }

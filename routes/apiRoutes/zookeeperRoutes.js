@@ -7,7 +7,7 @@ const router = require("express").Router();
 router.get('/zookeepers', (req, res) => {
     let results = zookeepers;
     if (req.query) {
-        results = results.filterByQuery(req.query, results);
+        results = filterByQuery(req.query, results);
     }
    res.json(results); 
 });
